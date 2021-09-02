@@ -1,0 +1,36 @@
+{
+  "name": "silver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "serve": "ts-node -O '{\"module\": \"commonjs\"}' ./server/index.ts",
+    "dev": "concurrently --kill-others \"npm run serve\" \"next\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react-redux": "^7.1.18",
+    "@types/styled-components": "^5.1.13",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "next": "^11.1.2",
+    "next-redux-wrapper": "^7.0.2",
+    "node-fetch": "^2.6.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "styled-components": "^5.3.1",
+    "ts-node": "^10.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.8",
+    "@types/react": "^17.0.19",
+    "typescript": "^4.4.2"
+  }
+}
